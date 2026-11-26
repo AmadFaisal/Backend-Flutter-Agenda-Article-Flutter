@@ -40,8 +40,9 @@ class AuthController extends Controller
             'message' => "Register berhasil."
             // 'access_token' => $token,
             // 'token_type' => 'Bearer'
+            
         ]);
-    }
+    } 
 
     public function login(Request $request)
     {

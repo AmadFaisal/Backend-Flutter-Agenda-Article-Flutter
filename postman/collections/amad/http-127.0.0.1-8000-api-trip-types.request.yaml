@@ -1,0 +1,24 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/trip-types
+description: ""
+url: http://127.0.0.1:8000/api/trip-types
+method: POST
+headers:
+  Accept: application/json
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\":\"amad\",\r
+
+    \    \"email\":\"imal@gmail.com\",\r
+
+    \    \"password\":\"password\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: 17|gpwmnElOtdSe3jR4DtyzY1l0GxV5MmptyO9QgTkk6fa2877b
+order: 1000

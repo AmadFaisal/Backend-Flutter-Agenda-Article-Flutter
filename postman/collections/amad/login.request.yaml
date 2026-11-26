@@ -1,0 +1,14 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/trip-types
+method: POST
+headers:
+  Accept: application/json
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r\n    \"name\":\"mudik\"\r\n}"
+auth:
+  type: bearer
+  credentials:
+    token: 19|AJoXss8L9J1WK1chcT8yl9s48iWqrfJ2mTSws0vF3a5df23d
+order: 2000
